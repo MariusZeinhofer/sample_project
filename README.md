@@ -10,3 +10,11 @@ You can set up the `conda` environment and activate it
 conda env create --file .conda_env.yaml
 conda activate sample_project
 ```
+
+## Editable Install with PIP
+
+Install the package in editable mode
+
+```bash
+pip install -e .
+```
