@@ -5,6 +5,7 @@ def sample_function(k: int = 2):
     """Compute the batched Hessian of the model w.r.t. its input.
 
     Args:
+        k: stuff.
         model: The model whose Hessian will be computed. Must produce batched scalars as
             output.
         X: The input to the model. First dimension is the batch dimension.
