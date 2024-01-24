@@ -11,4 +11,4 @@ def sample_function(greeting: str = "Greetings."):
     """
     print("Just output from a sample function.")
 
-x= 2*3
+x= 2 *3y
