@@ -23,4 +23,4 @@ jobs:
         pip install ruff
     - name: Run ruff
       run: |
-        ruff check . --config=black.toml
+        ruff check . --config=pyproject.toml
